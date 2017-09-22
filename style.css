@@ -1,19 +1,34 @@
 .faded-background {
-  background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #project-display {
-  margin-top: 10px;
-  padding: 10px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
-.img-responsive {}
-
 .perfect-img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  -webkit-box-shadow: 0px 10px 23px -2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 10px 23px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 10px 23px -2px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    -webkit-box-shadow: 0px 10px 23px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 23px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 23px -2px rgba(0, 0, 0, 0.75);
+}
+
+.school-icon {
+    height: 10%;
+}
+
+#education {
+    background-image: url('img/pexels-photo-172292.jpeg');
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
 }
