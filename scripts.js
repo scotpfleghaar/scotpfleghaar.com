@@ -11,11 +11,17 @@ $(document).ready(function () {; // This closing semicolon prevents any previous
                 if (target.length) {
                     $('html,body').animate({
                         scrollTop: target.offset().top
-                    }, 1000); // The number here represents the speed of the scroll in milliseconds
+                    }, 1250); // The number here represents the speed of the scroll in milliseconds
                     return false;
                 }
             }
         });
 
+        // Handles the toggledown under e-mail
+        $(document).ready(function () {
+            $(".flip").click(function () {
+                $(".panel").slideToggle("slow");
+            });
+        });
     })(); //If I need to expose outside inside the IIFE, called it here.
 });

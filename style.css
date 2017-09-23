@@ -1,5 +1,5 @@
 .faded-background {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 #project-display {
@@ -14,6 +14,7 @@
     -webkit-box-shadow: 0px 10px 23px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 10px 23px -2px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 10px 23px -2px rgba(0, 0, 0, 0.75);
+    transition: box-shadow 0.1s ease-in-out;
 }
 
 .perfect-img:hover {
@@ -23,7 +24,7 @@
 }
 
 .school-icon {
-    height: 10%;
+    height: 65px;
 }
 
 #education {
@@ -37,4 +38,8 @@
 footer {
     background-color: #222222;
     color: white;
+}
+
+.panel {
+    display: none;
 }
